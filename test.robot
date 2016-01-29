@@ -13,6 +13,6 @@ First
 *** Keywords ***
 
 Middleman
-    [Arguments]    I_UNDERSTOOD_THAT_REFERENCE=${None}
+    [Arguments]    ${I_UNDERSTOOD_THAT_REFERENCE}=${None}
     [Return]    ${foo}
     ${foo}=    My Keyword    I_UNDERSTOOD_THAT_REFERENCE=${None}
